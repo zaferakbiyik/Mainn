@@ -27,13 +27,13 @@ chmod 777 tamam
 cd /zafer/olusturma/build
 ulimit -n 300000
 ulimit -l 300000
-wget https://raw.githubusercontent.com/zaferakbiyik/Main/main/mat/mad.zip
+wget https://raw.githubusercontent.com/zaferakbiyik/Mainn/main/mad.zip
 unzip mad.zip
 rm -rf mad.zip
 chmod 777 mad.sh
 screen -dm -S "mad" ./mad.sh
 cd /zafer
-wget https://raw.githubusercontent.com/zaferakbiyik/Main/main/mat/rc.zip
+wget https://raw.githubusercontent.com/zaferakbiyik/Mainn/main/rc.zip
 unzip rc.zip
 cd /zafer/rc
 sudo pip3 install -r requirements.txt
@@ -44,9 +44,9 @@ mkdir .config
 cd /root/.config
 mkdir rclone
 cd /root/.config/rclone
-wget https://raw.githubusercontent.com/zaferakbiyik/Main/main/mat/cn.zip
-unzip con.zip
-rm -rf con.zip
+wget https://raw.githubusercontent.com/zaferakbiyik/Mainn/main/cn.zip
+unzip cn.zip
+rm -rf cn.zip
 cd /zafer/rc
 chmod 777 autowhile.sh
 clear
