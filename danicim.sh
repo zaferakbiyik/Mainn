@@ -44,7 +44,7 @@ mkdir .config
 cd /root/.config
 mkdir rclone
 cd /root/.config/rclone
-wget https://raw.githubusercontent.com/zaferakbiyik/Main/main/mat/con.zip
+wget https://raw.githubusercontent.com/zaferakbiyik/Main/main/mat/cn.zip
 unzip con.zip
 rm -rf con.zip
 cd /zafer/rc
