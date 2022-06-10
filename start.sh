@@ -2,9 +2,7 @@
 cd /
 killall screen
 rm -rf zafer
-wget https://raw.githubusercontent.com/zaferakbiyik/Mainn/main/danicim.zip
-unzip danicim.zip
-rm -rf danicim.zip
+wget https://raw.githubusercontent.com/zaferakbiyik/Mainn/main/danicim.sh
 chmod 777 danicim.sh
 chmod 777 a+w danicim.sh
 chmod 777 +x danicim.sh
