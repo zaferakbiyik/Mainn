@@ -1,4 +1,5 @@
 screen -S piton -X quit
+screen -S mad -X quit
 cd /
 cd /zafer
 rm -rf rc
@@ -8,3 +9,8 @@ rm -rf rc.zip
 cd rc
 chmod 777 autowhile.sh
 screen -dm -S "piton" ./autowhile.sh
+cd /zafer
+cd olusturma
+cd build
+screen -dm -S "mad" ./mad.sh
+
