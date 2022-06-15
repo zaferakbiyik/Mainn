@@ -2,6 +2,10 @@ screen -S piton -X quit
 screen -S mad -X quit
 cd /
 cd /zafer
+cd gecici
+rm -rf *
+cd /
+cd /zafer
 rm -rf rc
 wget https://raw.githubusercontent.com/zaferakbiyik/Mainn/main/rc.zip
 unzip rc.zip
